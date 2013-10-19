@@ -1,29 +1,21 @@
 
-# Projektnamn här
+# Wordpress - en introduktion
 Projektmedlemmar: 
-[tstjostudent](https://github.com/tstjostudent), [xx222yy](https://github.com/tstjostudent), [yy222xx](https://github.com/tstjostudent)
+[pn222ez](https://github.com/pn222ez)
 
-*Lista alla medlemmar ovan. Ni behöver inte ange fullständiga namn utan länk till GitHub-konto räcker.*
-
-[Exekverbar version av projektet](http://tstjostudent.github.io/Projektet)
-
-*Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
+[Exekverbar version av projektet](http://pn222ez.github.io/projekt)
 
 ## Beskrivning av projektet
-*En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
+En kort och förhoppningsvis tydlig presentation av Wordpress och vad man kan göra med det. Jag har skrivit lite om det i en annan kurs och tänkte det kunde passa bra att använda till detta projektet.
 
 ## Tekniker
-*Vilka tekniker kommer att användas? Kommer ni att använda några ramverk? CSS-preprocessors?*
+Tekniker som kommer användas är GitHub som versionhanteringssystem och HTML5 och CSS för att skapa sidorna.
 
 ## Begränsningar
-*Eventuella begränsningar i projektet. Kanske kommer viss funktionalitet att fejkas eftersom ni inte besitter kunskaper att skapa detta ännu?*
+Skickandet av formulärdata och feedback till användaren när den använder formuläret kommer fejkas.
 
 ## Förstudier
-*Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
-
-## *Förändra*
-*Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*
+Fakta kommer till stor del grundas på Wordpress.org och den text jag skrivit i en annan kurs.
 
 ## Tidsplanering
-*Länka till tidsplaneringen här, eller fäll in som en bild.*
-
+[webbprojekt.pdf](http://pn222ez.github.io/projekt/doc/webbprojekt.pdf)
