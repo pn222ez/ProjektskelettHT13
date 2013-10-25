@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width:device-width, initial-scale=1.0" /> 
 	<link rel="stylesheet" href="css/style.css" />
 	<title>
-		Wordpress
+		Wordpress - kontakt
 	</title>
 </head>
 <body>
@@ -24,12 +24,12 @@
 			<nav id="navigation-container" class="table-cell-container">
 				<div id="menu-container">
 					<ul>
-						<a href="../index.html"><li>Introduktion</li></a>
-						<a href="themes.html"><li>Teman</li></a>
-						<a href="pages.html"><li>Sidor</li></a>
-						<a href="plugins.html"><li>Tillägg</li></a>
-						<a href="data-types.html"><li>Datatyper</li></a>
-						<a href="contact.html"><li class="active">Kontakt</li></a>
+						<li><a href="../index.html">Introduktion</a></li>
+						<li><a href="themes.html">Teman</a></li>
+						<li><a href="pages.html">Sidor</a></li>
+						<li><a href="plugins.html">Tillägg</a></li>
+						<li><a href="data-types.html">Datatyper</a></li>
+						<li class="active"><a href="contact.html">Kontakt</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -38,17 +38,76 @@
 					<h1>
 						Kontakt
 					</h1>
-					<article>
-						
-					</article>
-					</div>
-				</main>
-			</div>
-			<footer>
-				<div class="margin-left">
-					Ansvarig för innehållet är Peter Nilsson, 2013
+					<section>
+						<form method="POST" action="contact-feedback.html">
+							<div class="table-container">
+								<div class="table-container">
+									<div class="table-cell-container label-container">
+										<label>Namn: </label>
+									</div>
+									<div class="table-cell-container">
+										<input type="text" name="name">
+									</div>
+								</div>
+								<div class="table-cell-container label-container">
+									<label>Ärende:</label>
+								</div>
+								<div class="table-cell-container">
+									<select name="reason">
+										<option>--Välj--</option>
+										<option>Länkförslag</option>
+										<option>Fråga</option>
+										<option>Annat</option>
+									</select>
+								</div>
+							</div>
+							<div class="table-container">
+								<div class="table-cell-container label-container">
+									<label>Rubrik:</label>
+								</div>
+								<div class="table-cell-container">
+									<input type="text" name="subject">
+								</div>
+							</div>
+							<div class="table-container">
+								<div class="table-cell-container label-container align-top">
+									<label>Text:</label>
+								</div>
+								<div class="table-cell-container">
+									<textarea name="content" rows=6 cols=30></textarea>
+								</div>
+							</div>
+							<br>
+							<div class="table-container">
+								<div class="table-cell-container label-container">
+									<label>Min mail</label>
+								</div>
+								<div class="table-cell-container">
+									<input type="email" name="email">
+								</div>
+							</div>
+							<div class="table-container">
+								<div class="table-cell-container label-container">
+									<label>Min webbplats</label>
+								</div>
+								<div class="table-cell-container">
+									<input type="url" name="url">
+								</div>
+							</div>
+							<br>
+							<div>
+								<input type="submit" value="Skicka">
+							</div>
+						</form>
+					</section>
 				</div>
-			</footer>
+			</main>
 		</div>
-	</body>
-	</html>
+		<footer>
+			<div class="margin-left">
+				Ansvarig för innehållet är Peter Nilsson, 2013
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
