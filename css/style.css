@@ -1,0 +1,107 @@
+/*
+Background main: #F2EFE4
+Background navigation, link hover, thead, input type submit: #CB8C1D
+Background header, footer, active menu item: #4C3327
+Text color header, footer: #FFF
+Text color main: #000
+Menu background: #F2EFE4
+*/
+@media screen {
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section { 
+	 	display: block; 
+	} 
+	
+	body {
+		font-family: 'Droid Serif', serif;
+	}
+	
+	nav, h1, h2, h3, h4, h5, h6 {
+		font-family: 'Oxygen', sans-serif;
+	}
+	
+	nav {
+		text-transform: uppercase;		
+	}
+	
+	body {
+		color: #FFF;
+		margin: 0;
+		padding: 0;
+	}
+	
+	#body-container {
+		background-color: #FFF;
+		color: #000;
+		position: relative;
+	}
+	
+	.left {
+		float: left;
+	}
+	
+	.right {
+		float: right;
+	}
+	
+	.margin-image {
+		margin: 0 1em 1em 1em;
+	}
+	
+	nav ul {
+		padding: 0;
+	}
+	
+	nav li {	
+		list-style: none;
+	}
+	
+	.active a:link, .active a:hover, .active a:active, .active a:visited, .active a:focus{
+		text-decoration: none;
+		border-bottom: 3px solid #FFF;
+	}
+	
+	nav a:link, nav a:active, nav a:visited, nav a:focus {
+		color: #000;
+		text-decoration: none;
+	}
+	
+	nav a:hover {
+		color: #000;
+		text-decoration: none;
+		border-bottom: 3px solid #FFF;
+	}
+
+	a:link, a:hover, a:active, a:visited, a:focus {
+		text-decoration: underline;
+		color: #000;
+	}
+	
+	select, input, textarea {
+		border: 1px #2D2D2E solid;
+	}
+	
+	input[type=submit] {
+		background-color: #2D2D2E;
+		color: #FFF;
+	}
+}
+
+@media print {
+	#header-container {
+		display: none;
+	}
+	
+	#navigation-container {
+		display: none;
+	}
+	
+	footer {
+		display: none;
+	}
+	
+	a[href^="http://"]:after {
+	content: " (" attr(href) ")";
+	font-size: 90%;
+	}
+}

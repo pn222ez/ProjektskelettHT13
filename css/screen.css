@@ -1,0 +1,68 @@
+footer {
+	min-height: 100px;
+	color: #FFF;
+	background-color: #2D2D2E;
+	padding: 2em 0 0 0;
+}
+
+article {
+	max-width: 400px;
+}
+
+nav ul {
+	margin: 0 0 0 20px;
+}
+
+.logo-background {
+	background-image: url('pics/wordpress-logo.png');
+	background-repeat: no-repeat;
+	width: 349px;
+	height: 79px;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+}
+
+#body-container {
+	width: 80%;
+	height: 660px;
+}
+
+#header-container {
+	border: 1px #8CBEB2 solid;
+	min-height: 120px;
+	background-color: #8CBEB2;
+}
+
+#navigation-container {
+	width: 20%;
+	background-color: #8CBEB2;
+}
+
+#menu-container {
+	font-size: 1.5em;
+}
+
+.table-container {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.table-cell-container {
+	display: table-cell;
+}
+
+.label-container {
+	width: 6em;
+}
+
+.margin-left {
+	margin-left: 20px;
+}
+
+.margin-top {
+	margin-top: 20px;
+}

@@ -1,0 +1,99 @@
+footer {
+	display: none;
+}
+
+.table-cell-container {
+	display: inline;
+}
+
+.logo-background {
+	background-image: url('pics/wordpress-logo-mobile.png');
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+}
+
+#container {
+	width: 100%;
+}
+
+#header-container {
+	width: 100%;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	background-color: #8CBEB2;
+}
+
+#body-container {
+	width: 100%;
+	font-size: 1.3em;
+}
+
+#navigation-container{
+	width: 100%;
+	display: table-header-group;
+	background-color: #8CBEB2;
+}
+
+#menu-container ul {
+	font-size: 1.5em;
+	min-height: 100px;
+	margin: 0;
+}
+
+#menu-container ul li {
+	float: left;
+	display: block;
+}
+
+.label-container {
+	width: 6em;
+}
+
+.margin-left {
+	margin-left: 3px;
+}
+
+nav li:nth-child(1n) {
+	list-style: none;
+	width: 60%;
+	padding: 0;
+}
+
+nav li:nth-child(2n) {
+	list-style: none;
+	width: 40%;
+	padding: 0;
+}
+
+label {
+	font-size: 1.5em;
+}
+
+select, input[type=text], input[type=email], input[type=url] {
+	border: 1px #2D2D2E solid;
+	width: 100%;
+	height: 2.5em;
+	font-size: 1em;
+}
+
+textarea {
+	border: 1px #2D2D2E solid;
+	width: 100%;
+	height: 180px;
+	font-size: 1em;
+}
+
+input[type=checkbox] {
+	width: 2.5em;
+	height: 2.5em;
+}
+
+input[type=submit] {
+	background-color: #2D2D2E;
+	color: #FFF;
+	height: 2.5em;
+	width: 100%;
+	font-size: 1em;
+}
