@@ -2,6 +2,10 @@ footer {
 	display: none;
 }
 
+article {
+	padding-bottom: 2.5em;
+}
+
 .table-cell-container {
 	display: inline;
 }
@@ -95,5 +99,4 @@ input[type=submit] {
 	color: #FFF;
 	height: 2.5em;
 	width: 100%;
-	font-size: 1em;
 }

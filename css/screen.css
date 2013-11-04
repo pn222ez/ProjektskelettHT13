@@ -66,3 +66,8 @@ nav ul {
 .margin-top {
 	margin-top: 20px;
 }
+
+input[type=submit] {
+	width: 100px;
+	height: 40px;
+}

@@ -1,10 +1,8 @@
 /*
-Background main: #F2EFE4
-Background navigation, link hover, thead, input type submit: #CB8C1D
-Background header, footer, active menu item: #4C3327
-Text color header, footer: #FFF
+Background main, Text footer, Menu underline: #FFF
+Background navigation, header: #8CBEB2
+Background footer, input tpe submit: #2D2D2E
 Text color main: #000
-Menu background: #F2EFE4
 */
 @media screen {
 	article, aside, details, figcaption, figure, 
@@ -33,7 +31,6 @@ Menu background: #F2EFE4
 	#body-container {
 		background-color: #FFF;
 		color: #000;
-		position: relative;
 	}
 	
 	.left {
@@ -84,6 +81,7 @@ Menu background: #F2EFE4
 	input[type=submit] {
 		background-color: #2D2D2E;
 		color: #FFF;
+		font-size: 1.3em;
 	}
 }
 
