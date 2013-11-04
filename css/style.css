@@ -14,11 +14,11 @@ Text color main: #000
 		font-family: 'Droid Serif', serif;
 	}
 	
-	nav, h1, h2, h3, h4, h5, h6 {
+	nav#navigation-container, h1, h2, h3, h4, h5, h6 {
 		font-family: 'Oxygen', sans-serif;
 	}
 	
-	nav {
+	nav#navigation-container {
 		text-transform: uppercase;		
 	}
 	
@@ -33,23 +33,31 @@ Text color main: #000
 		color: #000;
 	}
 	
-	.left {
+	.left-float {
 		float: left;
 	}
 	
-	.right {
+	.right-float {
 		float: right;
+	}
+	
+	.left {
+		text-align: left;;
+	}
+	
+	.right {
+		text-align: right;
 	}
 	
 	.margin-image {
 		margin: 0 1em 1em 1em;
 	}
 	
-	nav ul {
+	nav#navigation-container ul {
 		padding: 0;
 	}
 	
-	nav li {	
+	nav#navigation-container li {	
 		list-style: none;
 	}
 	
@@ -58,12 +66,12 @@ Text color main: #000
 		border-bottom: 3px solid #FFF;
 	}
 	
-	nav a:link, nav a:active, nav a:visited, nav a:focus {
+	nav#navigation-container a:link, nav#navigation-container a:active, nav#navigation-container a:visited, nav#navigation-container a:focus {
 		color: #000;
 		text-decoration: none;
 	}
 	
-	nav a:hover {
+	nav#navigation-container a:hover {
 		color: #000;
 		text-decoration: none;
 		border-bottom: 3px solid #FFF;

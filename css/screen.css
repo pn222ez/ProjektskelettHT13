@@ -9,10 +9,6 @@ article {
 	max-width: 400px;
 }
 
-nav ul {
-	margin: 0 0 0 20px;
-}
-
 .logo-background {
 	background-image: url('pics/wordpress-logo.png');
 	background-repeat: no-repeat;

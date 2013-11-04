@@ -2,10 +2,6 @@ footer {
 	display: none;
 }
 
-article {
-	padding-bottom: 2.5em;
-}
-
 .table-cell-container {
 	display: inline;
 }
@@ -56,7 +52,11 @@ article {
 }
 
 .margin-left {
-	margin-left: 3px;
+	margin-left: 5px;
+}
+
+.margin-right {
+	margin-right: 5px;
 }
 
 nav li:nth-child(1n) {
